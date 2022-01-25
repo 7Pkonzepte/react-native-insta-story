@@ -207,7 +207,7 @@ export const StoryListItem = (props: Props) => {
                         );
                     })}
                 </View>
-                 <View>
+                <View style={styles.userContainer}>
                     <TouchableOpacity onPress={() => {
                         if (props.onClosePress) {
                             props.onClosePress();
