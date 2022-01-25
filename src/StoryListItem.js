@@ -207,13 +207,6 @@ export const StoryListItem = (props: Props) => {
                         );
                     })}
                 </View>
-                <View style={styles.userContainer}>
-                    <View style={{flexDirection: 'row', alignItems: 'center'}}>
-                        <Image style={styles.avatarImage}
-                               source={{uri: props.profileImage}}
-                        />
-                        <Text style={styles.avatarText}>{props.profileName}</Text>
-                    </View>
                     <TouchableOpacity onPress={() => {
                         if (props.onClosePress) {
                             props.onClosePress();
