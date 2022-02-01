@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
     },
     userContainer: {
         height: 50,
-        flexDirection: 'row',
+        flexDirection: 'row-reverse',
         justifyContent: 'space-between',
         paddingHorizontal: 15,
     },
