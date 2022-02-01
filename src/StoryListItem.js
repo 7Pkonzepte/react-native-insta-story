@@ -330,8 +330,8 @@ const styles = StyleSheet.create({
         paddingLeft: 10,
     },
     closeIconContainer: {
-        alignItems: 'center',
-        justifyContent: 'center',
+        alignItems: 'flex-end',
+        justifyContent: 'flex-end',
         height: 50,
         paddingHorizontal: 15,
     },
