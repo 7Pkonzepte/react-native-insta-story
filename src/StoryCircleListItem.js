@@ -61,8 +61,8 @@ const StoryCircleListItem = (props) => {
             >
                 <Image
                     style={{
-                        height: size,
-                        width: size,
+                        height: size-10,
+                        width: size-10,
                         borderRadius: 100,
                     }}
                     source={{uri: item.user_image}}
@@ -98,7 +98,6 @@ const styles = StyleSheet.create({
         borderRadius: 100,
         height: 64,
         width: 64,
-        padding: 10,
     },
     text: {
         marginTop: 3,
