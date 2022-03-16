@@ -61,8 +61,8 @@ const StoryCircleListItem = (props) => {
             >
                 <Image
                     style={{
-                        height: size-10,
-                        width: size-10,
+                        height: size-4,
+                        width: size-4,
                         borderRadius: 100,
                     }}
                     source={{uri: item.user_image}}
