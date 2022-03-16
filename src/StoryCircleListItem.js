@@ -64,7 +64,7 @@ const StoryCircleListItem = (props) => {
                         height: size,
                         width: size,
                         borderRadius: 100,
-                        padding: 2
+                        padding: 10,
                     }}
                     source={{uri: item.user_image}}
                     defaultSource={Platform.OS === 'ios' ? DEFAULT_AVATAR : null}
