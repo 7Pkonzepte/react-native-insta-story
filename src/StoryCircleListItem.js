@@ -64,7 +64,6 @@ const StoryCircleListItem = (props) => {
                         height: size,
                         width: size,
                         borderRadius: 100,
-                        padding: 10,
                     }}
                     source={{uri: item.user_image}}
                     defaultSource={Platform.OS === 'ios' ? DEFAULT_AVATAR : null}
@@ -98,7 +97,8 @@ const styles = StyleSheet.create({
         borderColor: 'red',
         borderRadius: 100,
         height: 64,
-        width: 64
+        width: 64,
+        padding: 10,
     },
     text: {
         marginTop: 3,
