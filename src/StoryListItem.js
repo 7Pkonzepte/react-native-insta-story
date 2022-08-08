@@ -16,7 +16,8 @@ import type { IUserStoryItem } from "./interfaces/IUserStory";
 import { usePrevious } from "./helpers/StateHelpers";
 import { isNullOrWhitespace } from "./helpers/ValidationHelpers";
 import GestureRecognizer from "react-native-swipe-gestures";
-import Video from "react-native-video";
+//import Video from "react-native-video";
+import { Video } from "expo-av";
 
 const { width, height } = Dimensions.get("window");
 
@@ -211,7 +212,8 @@ export const StoryListItem = (props: Props) => {
               source={{ uri: content[current].media }}
               rate={1.0}
               volume={1.0}
-              paused={pressed}
+              // paused={pressed}
+              shouldPlay={!pressed}
               resizeMode="cover"
               playInBackground={false}
               onLoadStart={() => {
